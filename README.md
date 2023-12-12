@@ -1,9 +1,9 @@
 # Employee Churn Prediction
-Predict whether the employee will churn from the company or not, and also anlysis the factors responsible or having the most influence on customer churning.
+Predict whether the employee will churn from the company or not, and also analyze the factors responsible for or having the most influence on customer churning.
 
 ## Dataset
 
-Dataset is avialable at [Kaggle](https://www.kaggle.com/datasets/mfaisalqureshi/hr-analytics-and-job-prediction?select=HR_comma_sep.csv).
+The dataset is available at [Kaggle](https://www.kaggle.com/datasets/mfaisalqureshi/hr-analytics-and-job-prediction?select=HR_comma_sep.csv).
 
 Variable  |Description |
 -----|-----|
@@ -22,7 +22,7 @@ salary|The employee's salary (U.S. dollars)
 ## Results
 
 | Model | Precision | Recall | F1-Score | Accuracy |
-|--------------------------------------------------|
+|-------|-----------|--------|----------|----------|
 | Logistic Regression | 0.75 | 0.81 | 0.77 | 0.81 |
 | Naive Bayes | 0.87 | 0.80 | 0.82 | 0.80 |
 | KNN | 0.79 | 0.88 | 0.83 | 0.94 |
@@ -34,7 +34,7 @@ salary|The employee's salary (U.S. dollars)
 | XGBoost | 0.91 | 0.89 | 0.90 | 0.97 |
 
 ## Conclusion
-The best `F1-Score` and `Accuracy` is achieved with XGBoost model and `last_evaluation`, `number_project`, `tenure`, and `overworked` are the most important features in deciding of churn employee.
-* Employee invovle in more than 4 projects have high chance of leaving the company.
-* Most of the employee leave between the year 2 to 5.
-* Large proportions of emplyee leaving comes from those who are the most overworked and good evaluation score or those who worked less than average and low evaluation score.
+The best `F1-Score` and `Accuracy` is achieved with the XGBoost model and `last_evaluation`, `number_project`, `tenure`, and `overworked` are the most important features in deciding on churn employee.
+* Employees involved in more than 4 projects have a high chance of leaving the company.
+* Most of the employees leave between the years 2 to 5.
+* Large proportions of employees leaving comes from those who are the most overworked and have good evaluation score or those who work less than average and have low evaluation score.
